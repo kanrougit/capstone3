@@ -1,0 +1,100 @@
+/* Universal Styles */
+body {
+    background-color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 1200px;
+}
+
+button {
+    background-color: darkgray;
+    color: white;
+    display: block;
+    box-sizing: content-box;
+    padding: 8px 0;
+}
+
+.inline-container {
+    display: flexbox
+
+}
+
+.left-container {
+    padding: 32px 24px;
+    width: 60%;
+}
+
+.right-container {
+    padding: 24px;
+    width: 40%;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Start Section */
+
+#startSec {
+    background-color: gray;  
+}
+
+/* Campus Section, Exhibition Section */
+.ly-subContainers {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.sub-container {
+    display: flex;
+}
+
+.sub-leftcontainer {
+    width: 35%;
+}
+
+.sub-rightcontainer {
+    align-items: center;
+}
+
+/* Learning Section */
+#learningSec {
+    background-color: gray;
+    padding: 32px;
+}
+
+.ly-contentBoxes {
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+.course-container {
+    padding-bottom: 24px;
+    margin: 32px 16px;
+}
+
+.course-container img {
+    width:100%;
+    height: auto;
+}
+.course-container h3 {
+    padding: 16px;
+}
+
+.course-container h4 {
+    padding: 8px 16px;
+}
+
+/* Exhibition Section */
+#exhibitionSec {
+    padding: 32px 0px;
+}
+
+/* Footer Section */
+footer {
+    border-top-style: solid 1px;
+}
