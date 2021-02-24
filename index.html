@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/style.css" >
     <title>COLMARacademy</title>
 </head>
 <body>
     <!-- Header Section-->
-    <header class="flex-container">
-        <div class="container">
-            <img src="resources/images/ic-logo.svg" alt="header-icon">
-            <h2 class="title">COLMAR<SPAN class="GrayColor">ACADEMY</SPAN></h2>
+    <header class="ly_header">
+        <div class="logo">
+            <div class="element"><img src="resources/images/ic-logo.svg" alt="header-icon"></div>
+            <div class="element"><p>COLMAR<SPAN class="GrayColor">ACADEMY</SPAN></p></div>
         </div>
-        <nav>
+        <div class="nav">
             <ul class="menu-group">
                 <li class="menu-item"><a href="#campusSec">On campus</a></li>
                 <li class="menu-item"><a href="#learningSec">Online</a></li>
                 <li class="menu-item"><a href="#exhibitionSec">or companies</a></li>
                 <li class="menu-item"><a href="#button">Sign in</a></li>
             </ul>
-        </nav>
+        </div>
 
 
     </header>
 
     <!--Start Section-->
-    <div id="startSec" class="inline-container">
+    <div id="startSec" class="ly_lcontainer">
         <div class="left-container">
             <img src="resources/images/banner.jpg" alt="startSec-img">
         </div>
@@ -43,51 +43,51 @@
 
 
     <!--Campus Section-->
-    <div id="campusSec" class="inline-container">
-        <--Left Part-->
-        <div class="left-container">
-            <img src="resources/images/information-campus.jpg" />
+    <div id="campusSec" class="ly_lcontainer">
+        <!--Left Part-->
+        <div class="ly-inline-container left-container ly_mcontainers">
+            <img src="resources/images/information-main.jpg" />
             <h1>
                 It doesn't hurt to keep practicing
             </h1>
             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula"</p>
             <p>Emanuel, Sr Strategist at Hiring.com</p>
         </div>
-        <--Right Part-->
-        <div class="right-container ly-subContainers">
-            <--Orientation Section-->
-                <div class="sub-container">
-                    <div class="sub-leftcontainer">
+        <!--Right Part-->
+        <div class="ly-inline-container right-container ly-middle-containers">
+            <!--Orientation Section-->
+                <div class="ly_middle-container orientation-site ly-small-containers">
+                    <div class="ly-small-container img-scontainer">
                         <img src="resources/images/information-orientation.jpg" />
                     </div>
-                    <div class="sub-rightcontainer">
-                        <h3>Orientation date</h3>
-                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                        <p>Read more</p>
+                    <div class="ly-small-container desc-container ly-sub-containers">
+                        <h3 class="sub-container">Orientation date</h3>
+                        <p class="sub-container hp_pad">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <p class="sub-container bluecolor">Read more</p>
                     </div>
                 </div>
 
-            <--Our campus Section-->
-                <div class="sub-container">
-                    <div class="sub-leftcontainer">
+            <!--Our campus Section-->
+                <div class="ly_middle-container campus-site ly-small-containers">
+                    <div class="ly-small-container img-scontainer">
                         <img src="resources/images/information-campus.jpg" />
                     </div>
-                    <div class="sub-rightcontainer">                       
-                        <h3>Our campus</h3>
-                        <p>Find which campus is close by you</p>
-                        <p>Read more</p>
+                    <div class="ly-small-container desc-container ly-sub-containers">                       
+                        <h3 class="sub-container">Our campus</h3>
+                        <p class="sub-container hp_pad">Find which campus is close by you</p>
+                        <p class="sub-container bluecolor">Read more</p>
                     </div>
                 </div>
 
-            <--Guest lecture Section-->
-                <div class="sub-container">
-                    <div class="sub-leftcontainer">
+            <!--Guest lecture Section-->
+                <div class="ly_middle-container guest-site ly-small-containers">
+                    <div class="ly-small-container img-scontainer">
                         <img src="resources/images/information-guest-lecture.jpg" />
                     </div>
-                    <div class="sub-rightcontainer">     
-                        <h3>Our guest lecture</h3>
-                        <p>Join a keynote with Liver Sack about music in medical treatment</p>
-                        <p>Read more</p>
+                    <div class="ly-small-container desc-container ly-sub-containers">     
+                        <h3 class="sub-container">Our guest lecture</h3>
+                        <p class="sub-container hp_pad">Join a keynote with Liver Sack about music in medical treatment</p>
+                        <p class="sub-container bluecolor">Read more</p>
                     </div>
                 </div>
 
@@ -96,54 +96,78 @@
     <!--Start learning Section-->
     <div id="learningSec">
         <h1>Start learning</h1>
-        <div class="ly-contentBoxes">
-            <--Software engineering Section-->
-                <div class="course-container">
-                    <img src="resources/images/course-software.jpg" />
-                    <h3>Software engineering</h3>
-                    <h4>COURSES</h4>
-                    <h4>Web Development, Mobile Development, iOT, APIs</h4>
+        <div class="ly-box-containers">
+            <!--Software engineering Section-->
+                <div class="ly-box-container course-container ly-middlebox-containers">
+                    <div class="ly-middlebox-container img-container">
+                        <img src="resources/images/course-software.jpg" />
+                    </div>
+                    <div class="ly-middlebox-container desc-container ly-smallbox-containers">
+                        <h3 class="ly-smallbox-container">Software engineering</h3>
+                        <p class="ly-smallbox-container hp_pad">COURSES</p>
+                        <p class="ly-smallbox-container">Web Development, Mobile Development, iOT, APIs</p>
+                    </div>
                 </div>
         
-                <--Computer art Section-->
-                <div class="course-container">
-                    <img src="resources/images/course-computer-art.jpg" />
-                    <h3>Computer art</h3>
-                    <h4>COURSES</h4>
-                    <h4>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</h4>
+             <!--Computer art Section-->
+                <div class="ly-box-container course-container ly-middlebox-containers">
+                    <div class="ly-middlebox-container img-container">
+                        <img src="resources/images/course-computer-art.jpg" />
+                    </div>
+                    <div class="ly-middlebox-container desc-container ly-smallbox-containers">
+                        <h3 class="ly-smallbox-container">Computer art</h3>
+                        <p class="ly-smallbox-container hp_pad">COURSES</p>
+                        <p class="ly-smallbox-container">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                    </div>
                 </div>
         
-                <--Design Section-->
-                <div class="course-container">
-                    <img src="resources/images/course-design.jpg" />
-                    <h3>Design</h3>
-                    <h4>COURSES</h4>
-                    <h4>User Experience Design, User Research, Visual Design</h4>
-        
+                <!--Design Section-->
+                <div class="ly-box-container course-container ly-middlebox-containers">
+                    <div class="ly-middlebox-container img-container">
+                        <img src="resources/images/course-design.jpg" />
+                    </div>
+                    <div class="ly-middlebox-container desc-container ly-smallbox-containers">
+                        <h3 class="ly-smallbox-container">Design</h3>
+                        <p class="ly-smallbox-container hp_pad">COURSES</p>
+                        <p class="ly-smallbox-container">User Experience Design, User Research, Visual Design</p> 
+                    </div>
                 </div>
         
-                <--Data Section-->
-                <div class="course-container">
-                    <img src="resources/images/course-data.jpg" />
-                    <h3>Data</h3>
-                    <h4>COURSES</h4>
-                    <h4>Data Science, Big Data, SQL, Data Visualization</h4>
+                <!--Data Section-->
+                <div class="ly-box-container course-container ly-middlebox-containers">
+                    <div class="ly-middlebox-container img-container">
+                        <img src="resources/images/course-data.jpg" />                   
+                    </div>
+                    <div class="ly-middlebox-container desc-container ly-smallbox-containers">
+                        <h3 class="ly-smallbox-container">Data</h3>
+                        <p class="ly-smallbox-container hp_pad">COURSES</p>
+                        <p class="ly-smallbox-container">Data Science, Big Data, SQL, Data Visualization</p>
+                    </div>
                 </div>
         
-                <--Business Section-->
-                <div class="course-container">
-                    <img src="resources/images/course-business.jpg" />
-                    <h3>Business</h3>
-                    <h4>COURSES</h4>
-                    <h4>Product Development, Business Development, Startup</h4>
+                <!--Business Section-->
+                <div class="ly-box-container course-container ly-middlebox-containers">
+                    <div class="ly-middlebox-container img-container">
+                        <img src="resources/images/course-business.jpg" />
+                    </div>
+                    <div class="ly-middlebox-container desc-container ly-smallbox-containers">
+                        <h3 class="ly-smallbox-container">Business</h3>
+                        <p class="ly-smallbox-container hp_pad">COURSES</p>
+                        <p class="ly-smallbox-container">Product Development, Business Development, Startup</p>                            
+                    </div>
                 </div>
         
-                <--Marketing Section-->
-                <div class="course-container">
-                    <img src="resources/images/course-marketing.jpg" />
-                    <h3>Marketing</h3>
-                    <h4>COURSES</h4>
-                    <h4>Analytics, Content Marketing, Mobile Marketing</h4>
+                <!--Marketing Section-->
+                <div class="ly-box-container course-container ly-middlebox-containers">
+                    <div class="ly-middlebox-container img-container">
+                        <img src="resources/images/course-marketing.jpg" />
+                    </div>
+                    <div class="ly-middlebox-container desc-container ly-smallbox-containers">
+                        <h3 class="ly-smallbox-container">Marketing</h3>
+                        <p class="ly-smallbox-container hp_pad">COURSES</p>
+                        <p class="ly-smallbox-container">Analytics, Content Marketing, Mobile Marketing</p>                     
+                    </div>
+
                 </div>
         </div>
         
@@ -152,33 +176,33 @@
     <!--Exhibit Section-->
     <div id="exhibitionSec">
         <h1>Thesis exhibit</h1>
-        <div class="inline-container">
-            <--Left Part-->
-                <div class="left-container">
-                    <video src="resources/videos/thesis.mp4"></video>
+        <div class="ly-inline-containers">
+            <!--Left Part-->
+                <div class="ly-inline-container left-container ly-middle-containers">
+                    <video src="resources/videos/thesis.mp4" autoplay></video>
                     <h3>Reimagine urban</h3>
                     <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristuque ligula."</p>
                 </div>               
-            <--Right Part-->
-                <div class="right-container ly-subContainers">
-                    <--Showcase1-->
-                    <div class="sub-container">
-                        <div class="sub-leftcontainer">
+            <!--Right Part-->
+                <div class="ly-inline-container right-container ly-middle-containers">
+                    <!--Showcase1-->
+                    <div class="ly_middle-container fisma-site ly-small-containers">
+                        <div class="ly-small-container img-scontainer">
                             <img src="resources/images/thesis-fisma.jpg" />
                         </div>
-                        <div class="sub-rightcontainer">   
-                        <h3>Fisma: Design and Prototype</h3>
-                        <h4>Designer showcase of ne prototype product</h4>
+                        <div class="ly-small-container desc-container ly-sub-containers ">   
+                        <h3 class="sub-container">Fisma: Design and Prototype</h3>
+                        <p class="sub-container">Designer showcase of ne prototype product</p>
                         </div>
                     </div>
-                    <--Showcase2-->
-                    <div class="sub-container">
-                        <div class="sub-leftcontainer">
+                    <!--Showcase2-->
+                    <div class="ly_middle-container nowthen-site ly-small-containers">
+                        <div class="ly-small-container img-scontainer">
                             <img src="resources/images/thesis-now-and-then.jpg" />
                         </div>
-                        <div class="sub-rightcontainer">   
-                        <h3>Now and then</h3>
-                        <h4>Research study about New York</h4>
+                        <div class="ly-small-container desc-container ly-sub-containers">   
+                        <h3 class="sub-container">Now and then</h3>
+                        <p class="sub-container">Research study about New York</p>
                         </div>
                     </div>
                 </div>
@@ -186,7 +210,7 @@
     </div>
 
     <!--Footer Section-->
-        <footer>copy 2016 Colmar Academy. All rights reserved</footer>
+        <footer>copyright 2016 Colmar Academy. All rights reserved</footer>
     
 </body>
 </html>
